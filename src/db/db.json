@@ -1,0 +1,10 @@
+{
+  "games": [
+    {"title": "Ruiner", "id":"1", "genre":"action"},
+    {"title": "Batman", "id":"2", "genre": "action"},
+    {"title": "Spiderman", "id":"3", "genre": "action"},
+    {"title": "Battlefield", "id":"4", "genre": "fps"},
+    {"title": "Call of Duty", "id":"5", "genre": "fps"},
+    {"title": "Dark Souls", "id":"6", "genre": "rpg"}
+  ]
+}
