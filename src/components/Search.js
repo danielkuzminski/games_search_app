@@ -10,6 +10,12 @@ export default function Search() {
 
   const [search, setSearch] = useState('')
 
+  const filteredData = data.filter((game) => {
+    if (game.title.toLowerCase().includes(search)){
+      return game;
+    }
+  })
+
 
   return (
     <div className='search-wrapper'>
@@ -17,14 +23,14 @@ export default function Search() {
         <div className='shadow'></div>
         <h2>Search for games</h2>
         <input type='text' className='search' placeholder='look up for games' onChange={(e) => {
-          setSearch(e.target.value)
+          setSearch(e.target.value.toLowerCase())
         }}/>
       </div>
       <div className='games-list'>
         <h1>Lista dostępnych gier</h1>
         {isPending && <p>Pending data...</p>}
         {error && <p>{error}</p>}
-        { data && data.map((game) => (
+        { data && filteredData.map((game) => (
           <div className='list' key={game.id}>
             <p>{game.title}</p>
           </div>
