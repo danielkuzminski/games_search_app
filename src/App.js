@@ -1,6 +1,7 @@
 import './App.css';
 import Search from './components/Search'
 import ScrollBar from './components/ScrollBar';
+import ToTopButton from './components/ToTopButton';
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <ScrollBar />
       <Search />
+      <ToTopButton />
     </div>
   );
 }

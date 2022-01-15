@@ -1,0 +1,23 @@
+.to-top-btn-wrapper {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+.to-top {
+  width: 40px;
+  aspect-ratio: 1 / 1;
+  background: #f80;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #000;
+  display: flex;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.arrow-up {
+  transform: scale(.7);
+}
