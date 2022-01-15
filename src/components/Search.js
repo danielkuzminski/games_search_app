@@ -27,7 +27,7 @@ export default function Search() {
         }}/>
       </div>
       <div className='games-list'>
-        <h1>Lista dostępnych gier</h1>
+        <h1>Available games</h1>
         {isPending && <p>Pending data...</p>}
         {error && <p>{error}</p>}
         { data && filteredData.map((game) => (
