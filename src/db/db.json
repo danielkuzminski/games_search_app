@@ -1,10 +1,79 @@
 {
   "games": [
-    {"title": "Ruiner", "id":"1", "genre":"action"},
-    {"title": "Batman: Arkham asylum", "id":"2", "genre": "action"},
-    {"title": "Spiderman", "id":"3", "genre": "action"},
-    {"title": "Battlefield 3", "id":"4", "genre": "fps"},
-    {"title": "Call of Duty: Vanguard", "id":"5", "genre": "fps"},
-    {"title": "Dark Souls", "id":"6", "genre": "rpg"}
+    {
+      "title": "Ruiner",
+      "id": "1",
+      "genre": "action"
+    },
+    {
+      "title": "Batman: Arkham asylum",
+      "id": "2",
+      "genre": "action"
+    },
+    {
+      "title": "Spiderman",
+      "id": "3",
+      "genre": "action"
+    },
+    {
+      "title": "Battlefield 3",
+      "id": "4",
+      "genre": "fps"
+    },
+    {
+      "title": "Call of Duty: Vanguard",
+      "id": "5",
+      "genre": "fps"
+    },
+    {
+      "title": "Dark Souls",
+      "id": "6",
+      "genre": "rpg"
+    },
+    {
+      "title": "NBA 2k22",
+      "genre": "sports",
+      "id": "p1a4k45"
+    },
+    {
+      "title": "nhl 22",
+      "genre": "sports",
+      "id": "R2ifc89"
+    },
+    {
+      "title": "nfl 22",
+      "genre": "sports",
+      "id": "wvyrDXq"
+    },
+    {
+      "title": "ace combat",
+      "genre": "simulator",
+      "id": "JyX9gcO"
+    },
+    {
+      "title": "mario kart",
+      "genre": "racing",
+      "id": "I_stHKp"
+    },
+    {
+      "title": "mario 64",
+      "genre": "platformer",
+      "id": "B5_SSzy"
+    },
+    {
+      "title": "dark souls 2",
+      "genre": "rpg",
+      "id": "IyC5_Fv"
+    },
+    {
+      "title": "unmetal",
+      "genre": "action",
+      "id": "Fmc2Lmt"
+    },
+    {
+      "title": "Back 4 Blood",
+      "genre": "fps",
+      "id": "K0VGLC4"
+    }
   ]
 }
