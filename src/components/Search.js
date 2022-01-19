@@ -30,7 +30,7 @@ export default function Search() {
         <h1>Available games</h1>
         {isPending && <p>Pending data...</p>}
         {error && <p>{error}</p>}
-        { data && filteredData.map((game) => (
+        {search && data && filteredData.map((game) => (
           <div className='list' key={game.id}>
             <p>{game.title}</p>
           </div>
