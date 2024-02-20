@@ -8,7 +8,7 @@ Have fun using it :)
 
 In the project directory, you can run:
 
-### 'npm run db"
+### `npm run db`
 
 Script to run json server database in localhost.
 To make everything work you'll need to install json server at first.
